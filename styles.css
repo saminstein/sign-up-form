@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #floralwhite;
+    display: flex;
+    flex-direction: column;    
+    z-index: -1;
+    position: fixed;
+}
+
+
+.main{
+    width: 100%;
+    height: 40%;
+    background: url(../images/leaves.jpg)no-repeat center center/cover;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    width: 20%;
+    height: 100%;
+    background: hsla(0,10%,5%,0.5);
+    display: flex;
+    flex-direction: column;
+    margin: 0 33.3%;
+    padding: 2px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.main-icon {
+    width: 50%;
+    height: 80%;
+    margin: 40% auto 25%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.logo {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-family: "Norse";
+    text-align: center;
+    position: relative;            
+}
+
+
+.odin {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+figcaption {
+    color: whitesmoke;
+    font-size: 0.6rem;
+    width: 200px;
+    margin: 0 33.3% 0 24%;
+    padding: 5px;        
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+
+.author {
+    color: gold;
+    text-decoration: none;    
+}
+
+
+.cite {
+    color: gold;
+    text-decoration: none;    
+}
+
+
+.par {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.text-par {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.end {
+    margin-left: 50px;
+}
+
+
+.onset {
+    background: #silver;    
+}
+
+
+.onset h4 {
+    font-size: 1rem;
+    margin: 8px inherit;
+    margin-bottom: 10px;
+}
+
+
+input {
+    margin-bottom: 15px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+
+input:hover {
+    border: 1px solid #80acff;
+    box-shadow: 1px solid #136be6;
+}
+
+
+label {
+    margin-top: 7px;
+    font-size: 12px;
+    color: #000;
+}
+
+
+.error {
+    border: 1px solid red;
+    color: red;
+}
+
+.cr {
+    margin-top: 20px;
+    background: transparent;
+}
+
+
+button {
+    background: #566d49;
+    color: #fff;
+    outline: none;
+    border: none;
+    width: 120px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-bottom: 20px;
+    transition: .3s ease;
+    cursor: pointer;    
+}
+
+
+button:hover{
+    background-color: yellow;
+    
+}
+
+
+.cr a {
+    color: #566d49;
+    text-decoration: none;
+    outline: transparent;
+}
+
+
+.cr a:hover {
+    color: red;
+}

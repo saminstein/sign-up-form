@@ -1,0 +1,74 @@
+@media only screen and (min-width: 400px){
+body {    
+    display:    flex;
+    flex-direction: row;
+    /*height: 20%;
+    width: 40%;*/
+}
+
+
+.main {
+    width: 40%;
+    height: 100%;
+}
+
+
+.icon {
+    width: 100%;
+    height: 10%;
+    background: hsla(0,10%,5%,0.7,);
+    display: flex;
+    flex-direction: row;
+    margin: 30% 0 0;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-icon {
+    width: 20%;
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.odin {
+    font-size: 2.5rem;
+}
+
+
+figcaption {
+    margin: 0 5px;
+}
+
+
+cite {
+    color: gold;
+}
+
+
+.par {
+    width: 60%;
+    height: 100%;    
+}
+
+
+.cr button {
+    width: 180px;
+}
+
+
+@media only screen and (max-width: 320px){
+body{
+    overflow: auto;
+}
+    
+}
