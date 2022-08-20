@@ -139,6 +139,15 @@ input:hover {
 }
 
 
+input:focus {
+
+    outline: none;
+
+    border-radius: 2px;
+
+}
+
+
 label {
     margin-top: 7px;
     font-size: 12px;
