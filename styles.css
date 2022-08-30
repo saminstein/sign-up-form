@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -51,7 +53,7 @@ body {
     color: whitesmoke;
     display: flex;
     flex-direction: column;
-    font-family: "Norse";
+    font-family: "Aboreto";
     text-align: center;
     position: relative;            
 }
